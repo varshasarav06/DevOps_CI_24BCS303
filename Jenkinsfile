@@ -1,4 +1,4 @@
-checkout scmpipeline {
+pipeline {
 agent any
 
 stages {
