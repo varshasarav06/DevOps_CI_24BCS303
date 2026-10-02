@@ -6,7 +6,10 @@ class TestGradeCalculator(unittest.TestCase):
 
     def test_grade_a(self):
         self.assertEqual(calculate_grade(95), "A")
-
+    
+    def test_grade_boundary(self):
+        self.assertEqual(calculate_grade(90), "A")
+    
     def test_grade_b(self):
         self.assertEqual(calculate_grade(85), "B")
 
